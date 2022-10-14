@@ -4,12 +4,11 @@ import com.openclassrooms.controller.EmployeeController;
 import com.openclassrooms.model.Employee;
 import com.openclassrooms.repository.EmployeeProxy;
 import com.openclassrooms.service.EmployeeService;
-import com.openclassrooms.webApp.CustomProperties;
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import lombok.Data;
 import org.springframework.context.annotation.ComponentScan;
 
 @Data
